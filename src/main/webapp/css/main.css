@@ -1,0 +1,71 @@
+body {
+    font: 18px monospace;
+    background-color: white;
+}
+
+.search {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 100px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+th, td {
+    white-space: nowrap;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+td a {
+    margin-right: 5px;
+    color: #0000CD;
+}
+
+#error {
+    color: red;
+    background-color: white;
+}
+
+.main-panel {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px 10px;
+    background: linear-gradient(to top right, #FFA500,#FF8C00);
+    white-space: nowrap;
+}
+
+.menu {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    list-style: none;
+    background-color: white;
+}
+
+.menu li {
+    display: inline-block;
+    float: left;
+    border-left: 1px solid black;
+    height: 20px;
+}
+
+.menu li:not(:first-child) {
+    padding: 10px 5px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.menu li:not(:first-child):hover {
+    background-color: #FF8C00;
+}
